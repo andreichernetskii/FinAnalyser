@@ -1,4 +1,4 @@
-package com.example.finanalyser.kafka;
+package com.example.finanalyser.kafka.consumer;
 
 import com.example.finanalyser.model.LimitDTO;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
@@ -23,6 +23,7 @@ public class KafkaConsumerConfig {
     @Value( value = "${kafka.consumer.group1}" )
     private String limitsGroupId;
 
+    // todo: configure consumer for this topic
     @Value( value = "${kafka.consumer.group2}" )
     private String transactionsGroupId;
 

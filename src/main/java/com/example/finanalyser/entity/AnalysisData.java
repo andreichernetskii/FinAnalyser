@@ -10,6 +10,11 @@ import lombok.NoArgsConstructor;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 
+/**
+ * Entity for tracking status of user funds.
+ * For catching moment when limitAmount will be excited by actualAmount.
+ * validUntil is for when limit amount will be reset.
+ */
 @Entity
 @NoArgsConstructor
 @AllArgsConstructor

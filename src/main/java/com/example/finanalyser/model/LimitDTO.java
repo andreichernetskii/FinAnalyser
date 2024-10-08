@@ -6,6 +6,9 @@ import lombok.Data;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 
+/**
+ * Limit info from Kafka topic "new_limit"
+ */
 @Data
 public class LimitDTO {
     private Long id;

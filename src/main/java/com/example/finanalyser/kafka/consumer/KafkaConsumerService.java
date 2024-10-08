@@ -1,4 +1,4 @@
-package com.example.finanalyser.kafka;
+package com.example.finanalyser.kafka.consumer;
 
 import com.example.finanalyser.model.LimitDTO;
 import org.springframework.kafka.annotation.KafkaListener;
